@@ -1,0 +1,10 @@
+$ ip addr
+$ sudo vi /etc/dhcpcd.conf
+$ sudo shutdown -r now
+$ ping google.com
+$ sudo vi /etc/sysctl.conf
+$ sudo sysctl -p
+$ sudo apt update -y && sudo apt install iptables-persistent
+$ sudo iptables -t nat -A POSTROUTING -j MASQUERADE
+$ sudo su -
+# iptables-save > /etc/iptables/rules.v4
